@@ -58,14 +58,14 @@ grunt.registerTask('qunit', 'Run the test suite on PhantomJS', function () {
 		},
 		// Once phantomjs is halted
 		done: function(err) {
-			var expected = fs.readFileSync(__dirname + '/test/expected.xml'),
+			var expected = fs.readFileSync(__dirname + '/test/expected.lcov'),
 				actual = output;
 
 			expected = normalise(String(expected).trim());
 			actual = normalise(String(actual).trim());
 
 			if ( expected === actual ) {
-				grunt.log.ok('XML output matches expected pattern.');
+				grunt.log.ok('lcov output matches expected pattern.');
 				done();
 			} else if (err) {
 				grunt.warn(err);

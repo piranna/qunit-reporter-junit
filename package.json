@@ -1,31 +1,31 @@
 {
-	"name": "qunit-reporter-junit",
-	"title": "JUnit reporter for QUnit",
-	"description": "Produce JUnit-style XML test reports with QUnit.",
-	"version": "1.0.2pre",
+	"name": "qunit-reporter-lcov",
+	"title": "lcov reporter for QUnit",
+	"description": "Produce lcov test reports with QUnit",
+	"version": "1.0.0",
 	"author": {
-		"name": "jQuery Foundation and other contributors",
-		"url": "https://github.com/jquery/qunit-reporter-junit/blob/master/AUTHORS.txt"
+		"name": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com",
+		"url": "https://github.com/piranna/qunit-reporter-lcov/blob/master/AUTHORS.txt"
 	},
-	"homepage": "https://github.com/jquery/qunit-reporter-junit",
+	"homepage": "https://github.com/piranna/qunit-reporter-lcov",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/jquery/qunit-reporter-junit.git"
+		"url": "git://github.com/piranna/qunit-reporter-lcov.git"
 	},
 	"bugs": {
-		"url": "https://github.com/jquery/qunit-reporter-junit/issues"
+		"url": "https://github.com/piranna/qunit-reporter-lcov/issues"
 	},
 	"license": {
 		"name": "MIT",
-		"url": "https://github.com/jquery/qunit-reporter-junit/blob/master/LICENSE.txt"
+		"url": "https://github.com/piranna/qunit-reporter-lcov/blob/master/LICENSE.txt"
 	},
 	"keywords": [
 		"qunit",
 		"qunit-plugin",
 		"qunit-reporter",
-		"junit"
+		"lcov"
 	],
-	"main": "qunit-reporter-junit.js",
+	"main": "qunit-reporter-lcov.js",
 	"scripts": {
 		"test": "grunt test"
 	},

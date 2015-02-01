@@ -1,4 +1,4 @@
-QUnit.jUnitReport = function(data) {
+QUnit.lcovReport = function(data) {
 	var console = window.console;
 	if (console) {
 		console.log(data.xml);
