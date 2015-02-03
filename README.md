@@ -16,7 +16,7 @@ hook to do something with the lcov string (e.g. upload it to a server):
 
 ```js
 QUnit.lcovReport = function(report) {
-	console.log(report.xml);
+	console.log(report.lcov);
 };
 ```
 

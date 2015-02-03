@@ -2,7 +2,7 @@
 	"name": "qunit-reporter-lcov",
 	"title": "lcov reporter for QUnit",
 	"description": "Produce lcov test reports with QUnit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": {
 		"name": "Jesús Leganés Combarro 'piranna' <piranna@gmail.com",
 		"url": "https://github.com/piranna/qunit-reporter-lcov/blob/master/AUTHORS.txt"
