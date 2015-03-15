@@ -20,6 +20,7 @@
 	"trailing": true,
 
 	"browser": true,
+	"node": true,
 
 	"onevar": false
 }
